@@ -1,9 +1,8 @@
-/* Sección Hero */
+/* Sección Hero - Base para todas las páginas */
 .seccion-hero {
     background-color: #0E5C63;
     color: white;
     padding: 5rem 0;
-    min-height: 80vh;
 }
 
 .contenido-hero {
@@ -14,7 +13,7 @@
 }
 
 .titulo-hero {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 1.5rem;
@@ -35,14 +34,17 @@
     margin-bottom: 2rem;
 }
 
-/* Responsive para sección hero */
-@media (max-width: 1024px) {
-    .contenido-hero {
-        gap: 2rem;
-    }
+.texto-hero {
+    max-width: 500px;
 }
 
-@media (max-width: 768px) {
+/* Estilos específicos para cupones */
+.contenido-derecho {
+    max-width: 400px;
+}
+
+/* Responsive para sección hero */
+@media (max-width: 900px) {
     .contenido-hero {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -59,7 +61,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     .seccion-hero {
         padding: 3rem 0;
     }

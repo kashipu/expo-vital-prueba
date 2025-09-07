@@ -35,7 +35,7 @@
 }
 
 /* Responsive para marcas */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .cuadricula-marcas {
         grid-template-columns: 1fr;
     }

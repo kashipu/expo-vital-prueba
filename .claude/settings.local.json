@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"E:\\code\\expovital\\css\\responsive.css\")",
+      "Bash(python:*)",
+      "Bash(sed:*)",
+      "Bash(node:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,3 +1,6 @@
+/* Variables CSS */
+@import url('./variables.css');
+
 /* Importaciones de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
@@ -13,7 +16,6 @@
 @import url('./categorias.css');
 @import url('./marcas.css');
 @import url('./info-practica.css');
-@import url('./responsive.css');
 
 /* Reset y estilos base */
 * {
@@ -23,14 +25,14 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fuente-primaria);
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: var(--texto-primario);
+    background-color: var(--bg-primario);
 }
 
 .contenedor {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 var(--espacio-lg);
 }

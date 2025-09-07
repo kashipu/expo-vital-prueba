@@ -29,15 +29,16 @@
     </header>
 
     <!-- Sección Principal -->
-    <section class="seccion-principal">
-        <div class="contenedor-principal">
-            <div class="contenido-izquierdo">
-                <h1 class="titulo-principal">Cupones Exclusivos</h1>
-                <p class="descripcion-principal">
-                    Aprovecha descuentos especiales y ofertas únicas de nuestras marcas aliadas
-                </p>
-            </div>
-            <div class="contenido-derecho">
+    <section class="seccion-hero">
+        <div class="contenedor">
+            <div class="contenido-hero">
+                <div class="texto-hero">
+                    <h1 class="titulo-hero">Cupones Exclusivos</h1>
+                    <p class="subtitulo-hero">
+                        Aprovecha descuentos especiales y ofertas únicas de nuestras marcas aliadas
+                    </p>
+                </div>
+                <div class="contenido-derecho">
                 <div class="tarjeta-cupon-destacado">
                     <span class="etiqueta-categoria">Cocina</span>
                     <h3 class="titulo-cupon">Royal Prestige</h3>
@@ -60,26 +61,26 @@
 
     <!-- Sección Instrucciones -->
     <section class="seccion-instrucciones">
-        <div class="contenedor-instrucciones">
+        <div class="contenedor">
             <h2 class="titulo-instrucciones">¿Cómo usar los cupones?</h2>
             <div class="pasos-instrucciones">
                 <div class="paso">
-                    <div class="icono-paso">📋</div>
-                    <h4 class="titulo-paso">1. Copia el código</h4>
+                    <div class="numero-paso">1</div>
+                    <h4 class="titulo-paso">Copia el código</h4>
                     <p class="descripcion-paso">
                         Haz clic en 'Copiar' para guardar el código en tu portapapeles
                     </p>
                 </div>
                 <div class="paso">
-                    <div class="icono-paso">🌐</div>
-                    <h4 class="titulo-paso">2. Visita el sitio web</h4>
+                    <div class="numero-paso">2</div>
+                    <h4 class="titulo-paso">Visita el sitio web</h4>
                     <p class="descripcion-paso">
                         Ve al sitio web oficial de la marca usando el botón correspondiente
                     </p>
                 </div>
                 <div class="paso">
-                    <div class="icono-paso">💳</div>
-                    <h4 class="titulo-paso">3. Aplica el descuento</h4>
+                    <div class="numero-paso">3</div>
+                    <h4 class="titulo-paso">Aplica el descuento</h4>
                     <p class="descripcion-paso">
                         Ingresa el código en el checkout y disfruta tu descuento
                     </p>
@@ -90,15 +91,15 @@
 
     <!-- Sección Filtros -->
     <section class="seccion-filtros">
-        <div class="contenedor-filtros">
+        <div class="contenedor">
             <div class="filtros">
-                <div class="filtro">
+                <div class="grupo-filtro">
                     <label for="categoria">Categoría</label>
                     <select id="categoria" class="selector-filtro">
                         <option>Categoría</option>
                     </select>
                 </div>
-                <div class="filtro">
+                <div class="grupo-filtro">
                     <label for="tipo-evento">Tipo de evento</label>
                     <select id="tipo-evento" class="selector-filtro">
                         <option>Tipo de evento</option>
@@ -110,8 +111,8 @@
 
     <!-- Sección Cupones -->
     <section class="seccion-cupones">
-        <div class="contenedor-cupones">
-            <div class="grilla-cupones">
+        <div class="contenedor">
+            <div class="cuadricula-cupones">
                 <!-- Cupón 1 -->
                 <div class="tarjeta-cupon">
                     <span class="etiqueta-categoria">Cocina</span>
@@ -187,6 +188,7 @@
         </div>
     </section>
 
+    <script src="./js/events-data.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

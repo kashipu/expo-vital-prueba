@@ -1,43 +1,5 @@
 /* Estilos específicos para la página de cupones */
 
-/* Sección Principal */
-.seccion-principal {
-    background: #2c5f6f;
-    color: white;
-    padding: 4rem 0;
-    min-height: 500px;
-}
-
-.contenedor-principal {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-}
-
-.contenido-izquierdo {
-    max-width: 500px;
-}
-
-.titulo-principal {
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-}
-
-.descripcion-principal {
-    font-size: 1.2rem;
-    opacity: 0.9;
-    line-height: 1.6;
-}
-
-.contenido-derecho {
-    max-width: 400px;
-}
 
 /* Tarjetas de cupón */
 .tarjeta-cupon-destacado,
@@ -127,7 +89,6 @@
     cursor: pointer;
     width: 100%;
     font-size: 1rem;
-    transition: background-color 0.3s ease;
 }
 
 .boton-ir-sitio:hover {
@@ -168,10 +129,18 @@
     padding: 1rem;
 }
 
-.icono-paso {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    display: block;
+.numero-paso {
+    width: 60px;
+    height: 60px;
+    background: var(--color-secundario);
+    color: var(--texto-blanco);
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--texto-2xl);
+    font-weight: var(--peso-bold);
+    margin: 0 auto var(--espacio-lg);
 }
 
 .titulo-paso {
@@ -192,24 +161,18 @@
     padding: 2rem 0;
 }
 
-.contenedor-filtros {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
 .filtros {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
-.filtro {
+.grupo-filtro {
     flex: 1;
     min-width: 200px;
 }
 
-.filtro label {
+.grupo-filtro label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 500;
@@ -238,23 +201,14 @@
     padding: 0 2rem;
 }
 
-.grilla-cupones {
+.cuadricula-cupones {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
 /* Responsive específico para cupones */
-@media (max-width: 768px) {
-    .contenedor-principal {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
-    .titulo-principal {
-        font-size: 2.5rem;
-    }
-    
+@media (max-width: 900px) {
     .pasos-instrucciones {
         grid-template-columns: 1fr;
     }
@@ -263,16 +217,12 @@
         flex-direction: column;
     }
     
-    .grilla-cupones {
+    .cuadricula-cupones {
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 480px) {
-    .titulo-principal {
-        font-size: 2rem;
-    }
-    
+@media (max-width: 360px) {
     .titulo-instrucciones {
         font-size: 2rem;
     }
@@ -282,10 +232,7 @@
         padding: 1.5rem;
     }
     
-    .contenedor-principal,
-    .contenedor-instrucciones,
-    .contenedor-filtros,
-    .contenedor-cupones {
+    .contenedor {
         padding: 0 1rem;
     }
 }

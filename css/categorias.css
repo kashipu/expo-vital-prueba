@@ -137,13 +137,6 @@
     border: 1px solid #e1e5e9;
 }
 
-.evento-destacado {
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-}
-
 .titulo-evento {
     font-size: 1.3rem;
     font-weight: bold;
@@ -185,19 +178,13 @@
 }
 
 /* Responsive para categorías */
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     .cuadricula-categorias {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 768px) {
-    .cuadricula-categorias {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 640px) {
+@media (max-width: 360px) {
     .cuadricula-categorias {
         grid-template-columns: 1fr;
     }

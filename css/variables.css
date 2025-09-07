@@ -1,0 +1,73 @@
+/* Variables CSS Globales */
+:root {
+  /* Colores principales */
+  --color-primario: #0E5C63;
+  --color-secundario: #ff6600;
+  --color-secundario-hover: #e55a00;
+  --color-azul: #3b82f6;
+  --color-azul-hover: #2563eb;
+  --color-verde-claro: #2d7a7a;
+  
+  /* Colores de fondo */
+  --bg-primario: #f8f9fa;
+  --bg-blanco: #ffffff;
+  --bg-gris-claro: #f1f3f4;
+  --bg-gris: #f8f9fa;
+  
+  /* Colores de texto */
+  --texto-primario: #333333;
+  --texto-secundario: #666666;
+  --texto-terciario: #555555;
+  --texto-claro: #777777;
+  --texto-blanco: #ffffff;
+  
+  /* Colores de bordes */
+  --border-color: #e1e5e9;
+  
+  /* Tipografía */
+  --fuente-primaria: 'Roboto', sans-serif;
+  --peso-normal: 400;
+  --peso-medio: 500;
+  --peso-semi-bold: 600;
+  --peso-bold: 700;
+  
+  /* Tamaños de fuente */
+  --texto-xs: 0.8rem;
+  --texto-sm: 0.9rem;
+  --texto-base: 1rem;
+  --texto-lg: 1.1rem;
+  --texto-xl: 1.2rem;
+  --texto-2xl: 1.5rem;
+  --texto-3xl: 2rem;
+  --texto-4xl: 2.5rem;
+  --texto-5xl: 3rem;
+  --texto-6xl: 3.5rem;
+  
+  /* Espaciado */
+  --espacio-xs: 0.25rem;
+  --espacio-sm: 0.5rem;
+  --espacio-md: 0.75rem;
+  --espacio-lg: 1rem;
+  --espacio-xl: 1.5rem;
+  --espacio-2xl: 2rem;
+  --espacio-3xl: 3rem;
+  --espacio-4xl: 4rem;
+  --espacio-5xl: 5rem;
+  
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 15px;
+  --radius-lg: 20px;
+  --radius-xl: 25px;
+  --radius-full: 50%;
+  
+  /* Sombras */
+  --sombra-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --sombra-md: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --sombra-lg: 0 10px 30px rgba(0, 0, 0, 0.1);
+  --sombra-texto: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  
+  /* Breakpoints (para referencia en comentarios) */
+  /* --mobile: 360px; */
+  /* --tablet: 900px; */
+}
