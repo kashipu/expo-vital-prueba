@@ -1,0 +1,53 @@
+/* Sección ExpoVital */
+.seccion-expovital {
+    background: white;
+    padding: 4rem 0;
+}
+
+.contenido-expovital {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.logotipo-expovital {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icono-loto {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.titulo-expovital {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d7a7a;
+    margin-bottom: 1rem;
+}
+
+.descripcion-expovital h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.descripcion-expovital p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Responsive para sección ExpoVital */
+@media (max-width: 768px) {
+    .contenido-expovital {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

@@ -1,0 +1,103 @@
+/* Estilos Responsive Globales */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .contenido-hero {
+        gap: 2rem;
+    }
+    
+    .formulario-inscripcion {
+        margin-top: 2rem;
+    }
+    
+    .cuadricula-categorias {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Móviles grandes */
+@media (max-width: 768px) {
+
+    .contenido-hero {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .titulo-hero {
+        font-size: 2.5rem;
+    }
+
+    .contenido-expovital {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .botones-hero {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .boton-secundario {
+        margin: 0.25rem 0;
+    }
+
+    .cuadricula-pasos,
+    .cuadricula-categorias,
+    .cuadricula-marcas,
+    .cuadricula-info {
+        grid-template-columns: 1fr;
+    }
+
+    .categoria {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Móviles medianos */
+@media (max-width: 640px) {
+    .cuadricula-categorias {
+        grid-template-columns: 1fr;
+    }
+    
+    .botones-hero {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .boton-secundario {
+        width: 100%;
+        margin: 0.25rem 0;
+    }
+
+    .filtros {
+        flex-direction: column;
+    }
+
+    .cuadricula-eventos {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+    .contenedor {
+        padding: 0 15px;
+    }
+
+    .seccion-hero {
+        padding: 3rem 0;
+    }
+
+    .titulo-hero {
+        font-size: 2rem;
+    }
+
+    .formulario-inscripcion {
+        padding: 1.5rem;
+    }
+
+    .encabezado-seccion h2 {
+        font-size: 2rem;
+    }
+}

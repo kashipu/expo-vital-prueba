@@ -1,0 +1,52 @@
+/* Información Práctica */
+.informacion-practica {
+    background: white;
+    padding: 4rem 0;
+}
+
+.informacion-practica .encabezado-seccion {
+    color: #333;
+}
+
+.cuadricula-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.tarjeta-info {
+    background: #2d7a7a;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.icono-info {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.tarjeta-info h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #ffd700;
+}
+
+.tarjeta-info p {
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+/* Responsive para información práctica */
+@media (max-width: 768px) {
+    .cuadricula-info {
+        grid-template-columns: 1fr;
+    }
+}

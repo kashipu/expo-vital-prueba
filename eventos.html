@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpoVital - Eventos y Programación</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="encabezado">
+        <nav class="navegacion">
+            <div class="menu-hamburguesa" id="menuHamburguesa">
+                <div class="linea"></div>
+                <div class="linea"></div>
+                <div class="linea"></div>
+            </div>
+            <div class="logo-navegacion">
+                <img src="./images/LogoCompensar.svg" alt="Logo Compensar">
+            </div>
+            <div class="menu-navegacion" id="menuNavegacion">
+                <a href="index.html" class="enlace-navegacion">Inicio</a>
+                <a href="eventos.html" class="enlace-navegacion">Programación</a>
+                <a href="cupones.html" class="enlace-navegacion">Cupones</a>
+                <a href="#" class="enlace-navegacion">Blog</a>
+            </div>
+            <button class="boton-primario">Inscríbete</button>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section class="seccion-hero">
+        <div class="contenedor">
+            <div class="contenido-hero">
+                <div class="texto-hero">
+                    <h1 class="titulo-hero">
+                        Belleza, salud y fitness<br>
+                        en un mismo lugar
+                    </h1>
+                    <p class="subtitulo-hero">
+                        Ven descubre las mejores marcas y experiencias únicas en belleza y salud integral.
+                    </p>
+                </div>
+
+                <!-- Tarjeta de evento destacado -->
+                <div class="evento-destacado" id="eventoDestacado">
+                    <!-- Contenido dinámico -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ¿Qué es ExpoVital? -->
+    <section class="seccion-expovital">
+        <div class="contenedor">
+            <h2 class="encabezado-seccion">¿Qué es ExpoVital?</h2>
+            <p class="descripcion-expovital">
+                ExpoVital conecta a miles de personas con marcas y experiencias únicas en bienestar integral. Un espacio donde convergen la innovación, el cuidado personal y el estilo de vida saludable en un ambiente inspirador y educativo que transforma vidas.
+            </p>
+            
+            <!-- Filtros -->
+            <div class="filtros">
+                <div class="grupo-filtro">
+                    <label for="categoria">Categoría</label>
+                    <select id="categoria" class="selector-filtro">
+                        <option value="">Todas las categorías</option>
+                        <option value="belleza">Belleza</option>
+                        <option value="salud">Salud</option>
+                        <option value="fitness">Fitness</option>
+                        <option value="bienestar">Bienestar</option>
+                    </select>
+                </div>
+                <div class="grupo-filtro">
+                    <label for="tipoEvento">Tipo de evento</label>
+                    <select id="tipoEvento" class="selector-filtro">
+                        <option value="">Todos los tipos</option>
+                        <option value="taller">Taller</option>
+                        <option value="conferencia">Conferencia</option>
+                        <option value="demostracion">Demostración</option>
+                        <option value="masterclass">Masterclass</option>
+                    </select>
+                </div>
+                <div class="grupo-filtro">
+                    <label for="fecha">Fecha</label>
+                    <select id="fecha" class="selector-filtro">
+                        <option value="">Todas las fechas</option>
+                        <option value="2024-09-24">24 de septiembre</option>
+                        <option value="2024-09-25">25 de septiembre</option>
+                        <option value="2024-09-26">26 de septiembre</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos hoy -->
+    <section class="eventos-hoy">
+        <div class="contenedor">
+            <h2 class="encabezado-seccion">Eventos hoy</h2>
+            <div class="cuadricula-eventos" id="eventosHoy">
+                <!-- Contenido dinámico desde JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Próximos eventos -->
+    <section class="proximos-eventos">
+        <div class="contenedor">
+            <h2 class="encabezado-seccion">Próximos eventos</h2>
+            <div class="cuadricula-eventos" id="proximosEventos">
+                <!-- Contenido dinámico desde JSON -->
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* Sección Cómo Funciona */
+.como-funciona {
+    background: #1e5a5a;
+    color: white;
+    padding: 4rem 0;
+}
+
+.encabezado-seccion {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.encabezado-seccion h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.encabezado-seccion h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #ff6b35;
+    border-radius: 2px;
+}
+
+.encabezado-seccion p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.cuadricula-pasos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.paso {
+    text-align: center;
+    padding: 1rem;
+}
+
+.icono-paso {
+    width: 80px;
+    height: 80px;
+    background: #2d7a7a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 auto 1rem;
+}
+
+.paso h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.paso p {
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+/* Responsive para cómo funciona */
+@media (max-width: 768px) {
+    .cuadricula-pasos {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado-seccion h2 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,291 @@
+/* Estilos específicos para la página de cupones */
+
+/* Sección Principal */
+.seccion-principal {
+    background: #2c5f6f;
+    color: white;
+    padding: 4rem 0;
+    min-height: 500px;
+}
+
+.contenedor-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.contenido-izquierdo {
+    max-width: 500px;
+}
+
+.titulo-principal {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.descripcion-principal {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.contenido-derecho {
+    max-width: 400px;
+}
+
+/* Tarjetas de cupón */
+.tarjeta-cupon-destacado,
+.tarjeta-cupon {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.etiqueta-categoria {
+    background: #2c5f6f;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.titulo-cupon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.descripcion-cupon {
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.contenedor-codigo {
+    margin-bottom: 1.5rem;
+}
+
+.texto-codigo {
+    font-size: 0.9rem;
+    color: #666;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.codigo-cupon {
+    background: #f1f3f4;
+    border: 2px dashed #2d7a7a;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #2d7a7a;
+    letter-spacing: 1px;
+}
+
+.terminos {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.texto-terminos {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.descripcion-terminos {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+.boton-ir-sitio {
+    background: #ff6b35;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.boton-ir-sitio:hover {
+    background: #e55a00;
+}
+
+/* Sección Instrucciones */
+.seccion-instrucciones {
+    background: #374151;
+    color: white;
+    padding: 4rem 0;
+}
+
+.contenedor-instrucciones {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.titulo-instrucciones {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.pasos-instrucciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.paso {
+    text-align: center;
+    padding: 1rem;
+}
+
+.icono-paso {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.titulo-paso {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.descripcion-paso {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+}
+
+/* Sección Filtros */
+.seccion-filtros {
+    background: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.contenedor-filtros {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.filtros {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.filtro {
+    flex: 1;
+    min-width: 200px;
+}
+
+.filtro label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.selector-filtro {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    background: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Sección Cupones */
+.seccion-cupones {
+    background: white;
+    padding: 4rem 0;
+}
+
+.contenedor-cupones {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.grilla-cupones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+/* Responsive específico para cupones */
+@media (max-width: 768px) {
+    .contenedor-principal {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .titulo-principal {
+        font-size: 2.5rem;
+    }
+    
+    .pasos-instrucciones {
+        grid-template-columns: 1fr;
+    }
+    
+    .filtros {
+        flex-direction: column;
+    }
+    
+    .grilla-cupones {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-principal {
+        font-size: 2rem;
+    }
+    
+    .titulo-instrucciones {
+        font-size: 2rem;
+    }
+    
+    .tarjeta-cupon-destacado,
+    .tarjeta-cupon {
+        padding: 1.5rem;
+    }
+    
+    .contenedor-principal,
+    .contenedor-instrucciones,
+    .contenedor-filtros,
+    .contenedor-cupones {
+        padding: 0 1rem;
+    }
+}

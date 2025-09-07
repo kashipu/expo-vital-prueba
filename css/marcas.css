@@ -1,0 +1,42 @@
+/* Sección Marcas */
+.marcas {
+    background: #1e5a5a;
+    color: white;
+    padding: 4rem 0;
+}
+
+.cuadricula-marcas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.tarjeta-marca {
+    background: #2d7a7a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logotipo-marca {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.nombre-marca {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.stand-marca {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Responsive para marcas */
+@media (max-width: 768px) {
+    .cuadricula-marcas {
+        grid-template-columns: 1fr;
+    }
+}
